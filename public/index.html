@@ -12,16 +12,16 @@
 				<input type="search" name="search" id="1" class="search-inp" placeholder="search">
 				<p class="category">category</p>
 				<header class="catg">
-					<div class=""><button type="button" value="category" class="ctg_LI">All</button></div>
-					<div class=""><button type="button" value="electronics" class="ctg_LI electronics">electronics</button></div>
+					<div class=""><button type="button" value="category" class="all ctg_LI" style="border-bottom: 1px solid #102A42;">All</button></div>
+					<div class=""><button type="button" value="electronics" class="electronics ctg_LI">electronics</button></div>
 					<div class=""><button type="button" value="jewelery" class="jewelery ctg_LI">jewelery</button></div>
-					<div class=""><button type="button" value="men's clothing" class="ctg_LI mens">men's clothing</button></div>
-					<div class=""><button type="button" value="women's clothing" class="ctg_LI women">women's clothing</button></div>
+					<div class=""><button type="button" value="men's clothing" class="mens ctg_LI">men's clothing</button></div>
+					<div class=""><button type="button" value="women's clothing" class="women ctg_LI">women's clothing</button></div>
 				</header>
 				<p class="p1">price</p>
-				<input type="range" name="" id="" value="" class="sort_from_price">
-				<div class="
-				">
+				<p class="count"><output id="value"></output></p>
+				<input type="range" step="any" min="0.00" max="3.099" name="" id="pi_input" value="" class="sort_from_price">
+				<div class="">
 				<button class="clear">clear filter</button></div>
 			</div>
 			<div class="products">
@@ -31,5 +31,6 @@
 		<div class="spinner-border" role="status">
 			<span class="visually-hidden">Loading...</span>
 		</div>
+		<div id = "image-gallery"></div>
 	</body>
 </html>
